@@ -2,11 +2,12 @@
 [API docs](http://apidocs.persistiq.com/)
 
 ## Installation
+### PyPi (recommended)
+`pip install persistiq`
+
 ### Git
 `pip install git+git://github.com:tizz98/persistiq.git@master`
 
-### PyPi
-_Coming soon_
 
 ## Usage
 ### Setup

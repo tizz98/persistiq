@@ -19,6 +19,7 @@ setup(
     name='persistiq',
     version=__str_version__,
     description='A simple python wrapper for the PersistIQ API',
+    long_description=long_description,
     url='https://github.com/tizz98/persistiq',
     download_url='https://github.com/tizz98/persistiq/tarball/%s' % (
         __str_version__

@@ -12,7 +12,7 @@ _Coming soon_
 ### Setup
 - Add `PERSIST_IQ_API_KEY='xxxxxxxx'` to your environment variables
     - bash: `echo export PERSIST_IQ_API_KEY='xxxxxxxx' >> ~/.bashrc`
-    - zsh: `echo PERSIST_IQ_API_KEY='xxxxxxxx' >> ~/.zshrc`
+    - zsh: `echo export PERSIST_IQ_API_KEY='xxxxxxxx' >> ~/.zshrc`
     - windows: ???
 - Open up a new terminal or:
     - bash: `. ~/.bashrc`

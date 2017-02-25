@@ -4,6 +4,8 @@ import os
 
 import requests
 
+from constants import __str_version__
+
 
 class Client(object):
     BASE_URL = 'https://api.persistiq.com'
@@ -15,6 +17,9 @@ class Client(object):
     @property
     def headers(self):
         return {
+            'User-Agent': 'python/persistiq v{}'.format(
+                __str_version__
+            ),
             'x-api-key': self.api_key,
         }
 

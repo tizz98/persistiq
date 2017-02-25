@@ -51,3 +51,9 @@ class Lead(ListMixin, RetrieveMixin, Resource):
     data_key = 'leads'
     single_data_key = 'lead'
     paginate = True
+
+
+class Campaign(ListMixin, Resource):
+    endpoint = 'campaigns'
+    data_key = 'campaigns'
+    paginate = True

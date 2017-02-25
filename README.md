@@ -40,3 +40,16 @@ from persistiq import Lead
 for lead in Lead.list():
     print lead.id, lead.data
 ```
+
+#### Campaign
+```python
+from persistiq import Campaign
+
+# NOTE:
+# Campaigns will automatically be paginated
+# to only get the first 100 without pagination set:
+# >>> Campaign.paginate = False
+
+for campaign in Campaign.list():
+    print campaign.id, campaign.name
+```

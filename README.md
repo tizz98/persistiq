@@ -6,7 +6,7 @@
 `pip install persistiq`
 
 ### Git
-`pip install git+git://github.com:tizz98/persistiq.git@master`
+`pip install git+git://github.com/tizz98/persistiq.git@master`
 
 
 ## Usage
